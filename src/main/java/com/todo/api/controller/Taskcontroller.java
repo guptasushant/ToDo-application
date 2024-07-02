@@ -7,21 +7,19 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.todo.api.entity.Task;
-import com.todo.api.serviceimpl.TaskServiceImpl;
+import com.todo.api.service.TaskService;
 
-import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
 public class Taskcontroller {
 
 	@Autowired
-	private TaskServiceImpl impl;
+	private TaskService impl;
 	
 
 	

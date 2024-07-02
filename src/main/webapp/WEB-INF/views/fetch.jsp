@@ -49,7 +49,7 @@
 						{
 					%>
 					<tr>
-						<td><%=task.getId()%></td>
+						<td><%=task.getId()%></td>o
 						<td><%=task.getTaskDate()%></td>
 						<td><%=task.getTaskdescription()%></td>
 						<td colspan="3" class="text-center">

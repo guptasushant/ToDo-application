@@ -7,9 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.todo.api.entity.Task;
 import com.todo.api.repository.TaskRepository;
+import com.todo.api.service.TaskService;
 
 @Service
-public class TaskServiceImpl {
+public class TaskServiceImpl implements TaskService{
 
 	@Autowired
 	private TaskRepository repository;
